@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <title>Contact Page</title>
+  </head>
+  <body>
+
+      <!-- Header Row has 4 colums, 1 row -->
+      <header class = "header">
+        <div class= "name animated fadeInDown delay-1">
+          <h2>Ryan Kim</h2>
+        </div>
+        <!-- Header buttons has a nested grid of 3 columns and 1 row -->
+          <ul class= "header_buttons animated fadeIn delay-2">
+            <li class ="link1"><a href="index.html" class="button">About</a></li>
+            <li class ="link2"><a href="portfolio.html" class="button">Portfolio</a></li>
+            <li class ="link3"><a href="#" class="button">Contact</a></li>
+          </ul>
+      </header>
+      <!--Main section has 2 columns with 2 rows-->
+      <section class = "main_section animated fadeInLeft delay-4">
+        <header class = "section_header animated fadeInDown delay-7">
+          <h2>Contact</h2>
+        </header>
+        <!-- Form -->
+        <div class = "section_body">
+          <div class ="contact_body animated fadeInDown delay-9">
+            <form class="contact_form" action="#" method="post">
+              <label for="form_name">Name</label>
+              <input type="text" name="form_name" placeholder="Your Name"><br>
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="Your Email Address"><br />
+              <label for="message">Message</label>
+              <textarea name="message" rows="10" placeholder="Your Message Goes Here"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Side section has 1 column with 2 rows -->
+      <aside class= "side_section animated bounceInRight delay-3">
+        <header class ="side_header">
+          <h2>Connect With Me</h2>
+        </header>
+        <!-- Icon buttons for social media is nested in second row with 3 columns and 1 row -->
+        <div class ="icons">
+          <a href="https://www.facebook.com/roverthegreat" class = "facebook "><img src="assets\images\if_Facebook_343415.png" alt="Facebook" class = "animated rotateIn delay-4"></a>
+          <a href="https://github.com/roverkim" class = "git" > <img src="assets\images\if_github_social_media_logo_1531637.png" alt="Github" class = "animated rotateIn delay-4"></a>
+          <a href="https://www.linkedin.com/in/roverkim/" class = "linkedin"><img src="assets\images\if_linkedin_328043.png" alt="Linkedin" class = "animated rotateIn delay-4"></a>
+        </div>
+      </aside>
+
+      <!--Footer Row has 1 column and 2 rows  -->
+      <footer class ="footer">
+        <div class = "pre_footer"></div>
+        <div class  = "within_footer">
+          <p class = "copyright animated slideInUp delay-2">@ Copyright 2017 Ryan Kim</p>
+        </div>
+      </footer>
+
+  </body>
+</html>
